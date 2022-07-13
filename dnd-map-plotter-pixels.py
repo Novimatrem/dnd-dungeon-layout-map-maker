@@ -43,8 +43,8 @@ class MainGame(arcade.Window):
         super().__init__(600, 600, title="DnD dungeon layout maker")
         center_on_screen(self)
         # Starting location of player
-        self.x = 100
-        self.y = 100
+        self.x = 10242048
+        self.y = 10242048
         center_on_screen(self)
 
     # Creating on_draw() function to draw on the screen
@@ -56,8 +56,8 @@ class MainGame(arcade.Window):
         
         arcade.draw_texture_rectangle(300, 300, 600,
                                       600, self.background)
-        # Drawing our player
-        arcade.draw_circle_filled(self.x, self.y, 0, arcade.color.BLACK)
+        # Drawing our cursor
+        arcade.draw_circle_filled(self.x, self.y, 5, arcade.color.GREEN)
         # Draw a filled in rectangle
 ##        arcade.draw_rectangle_filled(420, 100, 45, 65, arcade.color.BLUSH)
 
