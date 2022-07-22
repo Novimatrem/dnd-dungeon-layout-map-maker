@@ -1,3 +1,5 @@
+# (consider remaking in pygame)
+
 # dnd-dungeon-layout-map-maker
 
 # Don't try to run this, it's not ready, yet. Perhaps it won't ever be. But it #worksforme
