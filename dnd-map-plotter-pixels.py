@@ -1,3 +1,5 @@
+# (consider remaking in pygame)
+
 import os
  
 def clear_screen():
