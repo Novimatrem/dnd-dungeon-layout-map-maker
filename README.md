@@ -1,15 +1,25 @@
-# (consider remaking in pygame)
-
 # dnd-dungeon-layout-map-maker
+## only works properly on Windows right now /shrug
 
-# Don't try to run this, it's not ready, yet. Perhaps it won't ever be. But it #worksforme
+A dungeons and dragons map making tool, now with colours!
 
-Launch the launch-fedora.sh shell script to run.
-If you don't use Fedora, it will probably still work if you go inside of the script, replace all instances of 'dnf' with the name of your package manager, and run the shell script.
+# Setup
 
-Yes, I know, the code is awful, the way you have to launch it is awful, and it's not fast to use. But it works. This is my first ever proper Python project that actually does anything other than error-out. I do intend to make something better in the future, or to improve this version, but for now, this literally *does* do the job. No matter how inefficiently.
+**1.**
+Download the program from here:
+[https://gitlab.com/Novimatrem/dnd-dungeon-layout-map-maker/-/blob/main/dungeon-maker_v2_WIN.zip](https://gitlab.com/Novimatrem/dnd-dungeon-layout-map-maker/-/blob/main/dungeon-maker_v2_WIN.zip)
 
-With how the first version of this is, this is very much a case of "works for me". I did some awful horrible hacks to make this work, and it probably won't function unless your window titlebar height is exactly 29 pixels high from outer-edge to the edge of where the arcade window content starts, and your window borders are exactly 1 pixel thick. (I'm using MATE with the GreenLaguna theme).
+and extract it to a folder you'll have access to, perhaps My Documents.
 
-# YouTube video showing how it works
-[https://www.youtube.com/watch?v=XDmSufXW57o&t=0s](https://www.youtube.com/watch?v=XDmSufXW57o&t=0s)
+**2.**
+Go into the directory and install the dependencies in the 0_install-these-first folder, ensuring that you click "Add Python to PATH" and "Disable path length limit" during the Python installer", and that you run the Bat file inside of that folder.
+
+**3.**
+Run the launch-windows.bat file to start the application, if you launch it in any other way it will not work.
+
+**4.**
+Draw your map! Click to place blocks, and press C to get an option to change block colour.
+
+**Finishing**
+After you're done with your map, close the cmd window that the script opened, and the program will go away.
+Now simply copy gridback.png (which is your saved map file) into roll20, or Discord, or whatever you wish to do with it.
