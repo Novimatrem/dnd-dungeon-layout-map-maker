@@ -3,6 +3,8 @@
 
 A dungeons and dragons map making tool, now with colours!
 
+There's a video of it in action here: [https://youtu.be/6Upc7V8kuns](https://youtu.be/6Upc7V8kuns)
+
 # Setup
 
 **1.**
