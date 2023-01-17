@@ -7,7 +7,7 @@ There's a video of it in action here: [https://youtu.be/6Upc7V8kuns](https://you
 
 # todo-list
 
-## stairs mode
+### stairs mode
 
 one day i plan to add stairs mode
 
