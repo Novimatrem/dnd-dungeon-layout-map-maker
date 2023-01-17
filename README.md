@@ -5,6 +5,14 @@ A dungeons and dragons map making tool, now with colours!
 
 There's a video of it in action here: [https://youtu.be/6Upc7V8kuns](https://youtu.be/6Upc7V8kuns)
 
+# todo-list
+one day i plan to add stairs mode
+where you press S, the editor restarts, the words STAIRS MODE appears in the title bar, and you can place a sprite of stairs in a place
+to allow for multiple floors
+and obviously when i have developed that technology, i can place anything.
+because then i'll have sprites placable
+i just have to add them like the stairs
+
 # Setup
 
 **1.**
